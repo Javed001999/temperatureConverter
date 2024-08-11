@@ -1,0 +1,37 @@
+<!--  Temperature Converter: Develop a temperature converter that allows users to convert between Celsius and Fahrenheit or vice-versa.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="main-container">
+        <div class="container">
+            <h2 style="text-align: center;">Temperature Converter</h2>
+            <input type="number" id="inputTemp" placeholder="Enter temperature" style="border-radius: 10px;">
+            <div class="conversionTy">
+                <select id="conversionType" style="margin-left: 80px; padding: 5px; border-radius: 8px;">
+                    <option value="celsiusToFahrenheit">Celsius to Fahrenheit</option>
+                    <option value="fahrenheitToCelsius">Fahrenheit to Celsius</option>
+                </select>
+            </div>
+            <button onclick="convert()" style="margin-top: 50px;">Convert</button>
+            <p id="result" style="color: red; text-align: center;"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
